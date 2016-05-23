@@ -3,7 +3,7 @@
 require_once 'PollBot.php';
 
 define('BOT_TOKEN', '203130442:AAGpk6XhWVgXrPZf0L3wxQVPawkat-h-XaU');
-define('BOT_WEBHOOK', 'https://cbgraca.websiteseguro.com/poll-bot-webhook.php');
+define('BOT_WEBHOOK', 'https://votadetran.herokuapp.com/poll-bot-webhook.php');
 
 $bot = new PollBot(BOT_TOKEN, 'PollBotChat');
 
